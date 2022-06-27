@@ -3,10 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UmotaEInvoice.Server", "Server\UmotaEInvoice.Server.csproj", "{FB29CED9-FEEA-4EFB-B749-69BB97E2A177}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UmotaEInvoice.Shared", "Shared\UmotaEInvoice.Shared.csproj", "{7CC4D5D0-9102-47E1-8B9B-8A23FE947F60}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UmotaEInvoice.Server.Data", "Server.Data\UmotaEInvoice.Server.Data\UmotaEInvoice.Server.Data.csproj", "{20E6777A-8038-4C87-B5E1-95FD9955E4A3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmotaEFaturaWeb.Server", "UmotaEFaturaWeb\UmotaEFaturaWeb\Server\UmotaEFaturaWeb.Server.csproj", "{9E000202-A994-492D-9495-0764B6C2B7C6}"
@@ -21,14 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FB29CED9-FEEA-4EFB-B749-69BB97E2A177}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FB29CED9-FEEA-4EFB-B749-69BB97E2A177}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FB29CED9-FEEA-4EFB-B749-69BB97E2A177}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FB29CED9-FEEA-4EFB-B749-69BB97E2A177}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7CC4D5D0-9102-47E1-8B9B-8A23FE947F60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7CC4D5D0-9102-47E1-8B9B-8A23FE947F60}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7CC4D5D0-9102-47E1-8B9B-8A23FE947F60}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7CC4D5D0-9102-47E1-8B9B-8A23FE947F60}.Release|Any CPU.Build.0 = Release|Any CPU
 		{20E6777A-8038-4C87-B5E1-95FD9955E4A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{20E6777A-8038-4C87-B5E1-95FD9955E4A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20E6777A-8038-4C87-B5E1-95FD9955E4A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
