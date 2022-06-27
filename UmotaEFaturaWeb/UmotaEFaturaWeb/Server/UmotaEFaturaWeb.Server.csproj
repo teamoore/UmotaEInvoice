@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\Server.Data\UmotaEInvoice.Server.Data\UmotaEInvoice.Server.Data.csproj" />
     <ProjectReference Include="..\Client\UmotaEFaturaWeb.Client.csproj" />
     <ProjectReference Include="..\Shared\UmotaEFaturaWeb.Shared.csproj" />
   </ItemGroup>
