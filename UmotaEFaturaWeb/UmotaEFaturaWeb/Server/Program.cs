@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.ResponseCompression;
+using UmotaEFaturaWeb.Server.Services.Extensions;
 
 namespace UmotaEFaturaWeb
 {
@@ -12,6 +13,8 @@ namespace UmotaEFaturaWeb
 
             builder.Services.AddControllersWithViews();
             builder.Services.AddRazorPages();
+
+            builder.Services.ConfigureMapping();
 
             var app = builder.Build();
 
